@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'eg';
+	src:url('../polices/eg.eot');
+	src:url('../polices/eg.eot?#iefix') format('embedded-opentype'),
+		url('../polices/eg.woff') format('woff'),
+		url('../polices/eg.ttf') format('truetype'),
+		url('../polices/eg.svg#eg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icone-cercle-vide, .icone-cercle, .icone-courriel {
+	font-family: 'eg';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	padding-right: 7px;
+	-webkit-font-smoothing: antialiased;
+}
+.icone-cercle-vide:before {
+	content: "\e000";
+}
+.icone-cercle:before {
+	content: "\e001";
+}
+.icone-courriel:before {
+	content: "\e002";
+}
